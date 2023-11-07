@@ -1,4 +1,4 @@
-package classWork.Assignments1;
+package classWork.Assignments;
 
 public class carClass {
 //    static int total_sold;
