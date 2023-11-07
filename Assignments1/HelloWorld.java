@@ -1,4 +1,4 @@
-package classWork.Assignments;
+package classWork.Assignments1;
 
 public class HelloWorld {
     public static void main(String[] args) {
