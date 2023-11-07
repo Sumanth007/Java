@@ -11,8 +11,8 @@ public class swapDigit {
         System.out.println(arr);
         System.out.println(arr.toString());
         System.out.println(Arrays.toString(arr));
-//        usingCharArray();
-//        wihtoutUsingChar();
+       usingCharArray();
+       wihtoutUsingChar();
 
     }
 
