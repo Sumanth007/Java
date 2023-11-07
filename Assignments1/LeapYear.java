@@ -2,9 +2,9 @@ package classWork.Assignments1;
 
 import java.util.Scanner;
 
-public class LearYear {
+public class LeapYear {
     public static void main(String[] args) {
-        // Scanner in = new Scanner(System.in);
+         Scanner in = new Scanner(System.in);
 
 
         while(true) {
