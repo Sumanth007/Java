@@ -1,4 +1,4 @@
-//package GuessingTheMovie;
+package classWork.Assignments;//package GuessingTheMovie;
 import java.util.Scanner;
 
 public class guessingTheMovieName{

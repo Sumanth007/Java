@@ -1,0 +1,1 @@
+proving only one object is created by creating child class through printing hashcode

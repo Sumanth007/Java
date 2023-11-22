@@ -5,7 +5,7 @@ public class nestedConstrucotr {
     int secondaryCon;
 
     nestedConstrucotr() {
-        this(1);
+        this(1);// this has to be the first statement in the constructor like super()
         this.primaryCon = 10;
     }
 
