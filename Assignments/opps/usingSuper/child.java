@@ -11,4 +11,13 @@ public class child extends parent{
         this.name = name;
         System.out.println(this.hashCode());
     }
+
+     void hello(){
+        System.out.println("hey");
+    }
+
+    @Override
+    void display(){
+        System.out.println("Iam child");
+    }
 }

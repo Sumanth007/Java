@@ -6,4 +6,8 @@ public class parent {
         this.p = p;
         System.out.println(this.hashCode());
     }
+
+    void display(){
+        System.out.println("Hey , Iam Parent");
+    }
 }
