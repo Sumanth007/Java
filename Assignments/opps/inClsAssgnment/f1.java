@@ -1,5 +1,7 @@
 package classWork.Assignments.opps.inClsAssgnment;
 
+import javax.sound.sampled.Mixer;
+
 public class f1 extends Thread{
     int speed;
     int travel = 0;
@@ -23,9 +25,10 @@ public class f1 extends Thread{
 
             if(this.travel >= 100000000 && flag == 0){
                 flag = 1;
-                System.out.println("*********************************************************");
-                System.out.println("               Winner is : " + this.getName());
-                System.out.println("*********************************************************");
+                Thread.yield();
+                System.out.println("---------------------------------------------------------");
+                System.out.println("||               Winner is : " + this.getName()+"                     ||");
+                System.out.println("---------------------------------------------------------");
             }
         }
     }
@@ -51,5 +54,6 @@ public class f1 extends Thread{
             x++;
             temp.start();
         }
+
     }
 }

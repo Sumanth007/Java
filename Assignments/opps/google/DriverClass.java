@@ -10,6 +10,8 @@ public class DriverClass {
         try{
             Docs obj = new Docs();
             Google obj1 = new Google();
+            Integer a = 10;
+            int b = a;
             obj.create("Sumanth", "12345678");
             obj.login("Sumanth", "12345678");
         }

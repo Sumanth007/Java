@@ -1,6 +1,5 @@
 package classWork.Assignments.opps.inClsAssgnment;
 
-import abstractDemo.Parent;
 
 public class Bank {
         int id;
@@ -56,6 +55,17 @@ public class Bank {
                 return false;
             }
         }
+
+    public static void main(String[] args) {
+        Bank obj = new Bank(1,"z");
+
+        obj.createFD();
+        obj.createRD();
+
+        obj.createSB();
+        obj.createFD();
+        obj.createRD();
+    }
 
 
 }

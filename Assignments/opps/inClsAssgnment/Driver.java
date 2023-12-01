@@ -8,13 +8,7 @@ public class Driver {
         obj.createRD();
         obj.createFD();
 
-        employee obj1 = new employee("sanami",88771122,200400,"1st june","1st july");
-        obj1.getData_of_join();
-        obj1.getDate_of_birth();
-        obj1.getEname();
-        obj1.getSalary();
-        obj1.getPhone();
-
+        employee.emp obj2 = new employee.emp("z",123145,14151,"1st","2nda");
 
     }
 }
